@@ -1,0 +1,150 @@
+#app {
+}
+title {
+  /* Your awesome traffic permit consultant. */
+
+  position: absolute;
+  width: 741px;
+  height: 300px;
+  left: calc(50% - 741px / 2 - 189.5px);
+  top: 190px;
+
+  font-family: DM Serif Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 100%;
+  /* or 100px */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.logo {
+  /* logo */
+  height: 50px;
+  width: 212px;
+  left: 240px;
+  top: 50px;
+  border-radius: 0px;
+
+  position: absolute;
+  width: 212px;
+  height: 50px;
+  left: 240px;
+  top: 50px;
+}
+
+.about {
+  /* ABOUT */
+
+  position: absolute;
+  width: 59px;
+  height: 19px;
+  left: calc(50% - 59px / 2 - 26.5px);
+  top: 61px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.howto {
+  position: absolute;
+  width: 65px;
+  height: 19px;
+  left: calc(50% - 65px / 2 + 132.5px);
+  top: 61px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.faqs {
+  /* FAQS */
+
+  position: absolute;
+  width: 45px;
+  height: 19px;
+  left: calc(50% - 45px / 2 + 291.5px);
+  top: 61px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+button {
+  position: absolute;
+  width: 158px;
+  height: 60px;
+  left: calc(50% - 158px / 2 + 469px);
+  top: 40px;
+  bottom: 0%;
+
+  background: #ee4d47;
+  border-radius: 5px;
+}
+.btn {
+  /* GET STARTED */
+
+  position: absolute;
+  width: 220px;
+  height: 60px;
+  left: 240px;
+  top: 550px;
+}
+p {
+  height: 395.4px;
+  width: 811px;
+  left: -211px;
+  top: 791.8px;
+  border-radius: 0px;
+
+  position: absolute;
+  left: -13.19%;
+  right: 62.5%;
+  top: 14.71%;
+  bottom: 77.94%;
+}
+@keyframes example {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
