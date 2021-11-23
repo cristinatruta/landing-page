@@ -1,39 +1,6 @@
-/* Media Queries: Tablet Landscape */
-@media screen and (max-width: 1060px) {
-  #primary {
-    width: 67%;
-  }
-  #secondary {
-    width: 30%;
-    margin-left: 3%;
-  }
-}
-
-/* Media Queries: Tabled Portrait */
-@media screen and (max-width: 768px) {
-  #primary {
-    width: 100%;
-  }
-  #secondary {
-    width: 100%;
-    margin: 0;
-    border: none;
-  }
-}
-@media (min-device-width: 600px) {
-  img[data-src-600px] {
-    content: attr(data-src-600px, url);
-  }
-}
-
-@media (min-device-width: 800px) {
-  img[data-src-800px] {
-    content: attr(data-src-800px, url);
-  }
-}
-
 #app {
 }
+
 title {
   /* Your awesome traffic permit consultant. */
 
@@ -55,7 +22,7 @@ title {
 
   color: #ffffff;
 }
-.logo {
+#logo {
   /* logo */
   height: 50px;
   width: 212px;
@@ -70,7 +37,14 @@ title {
   top: 50px;
 }
 
-.about {
+#about {
+  /* About us */
+
+  position: absolute;
+  width: 1170.8px;
+  height: 550px;
+  left: 245px;
+  top: 1290px;
   /* ABOUT */
 
   position: absolute;
@@ -78,6 +52,7 @@ title {
   height: 19px;
   left: calc(50% - 59px / 2 - 26.5px);
   top: 61px;
+  /* or 100px */
 
   font-family: Rubik;
   font-style: normal;
@@ -96,6 +71,9 @@ title {
 }
 
 .howto {
+  /* HOW TO */
+}
+
   position: absolute;
   width: 65px;
   height: 19px;
@@ -107,7 +85,6 @@ title {
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
-
   /* identical to box height */
 
   display: flex;
@@ -118,11 +95,13 @@ title {
 
   color: #ffffff;
 }
-.faqs {
+#faqs {
   /* FAQS */
+}
 
   position: absolute;
   width: 45px;
+  width: 65px;
   height: 19px;
   left: calc(50% - 45px / 2 + 291.5px);
   top: 61px;
@@ -132,6 +111,7 @@ title {
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
+  /* identical to box height */
   /* identical to box height */
 
   display: flex;
@@ -149,12 +129,14 @@ button {
   left: calc(50% - 158px / 2 + 469px);
   top: 40px;
   bottom: 0%;
+  top: 61px;
 
   background: #ee4d47;
   border-radius: 5px;
 }
 .btn {
   /* GET STARTED */
+  /* identical to box height */
 
   position: absolute;
   width: 220px;
@@ -162,12 +144,21 @@ button {
   left: 240px;
   top: 550px;
 }
-p {
-  height: 395.4px;
+img {
+  max-width: 100%;
+  display: block;
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+}
+section-2 {
   width: 811px;
+  height: 395.46px;
+  top: 791.81px;
   left: -211px;
-  top: 791.8px;
-  border-radius: 0px;
+  blend: Pass through;
+  /* mobel */
 
   position: absolute;
   left: -13.19%;
@@ -175,10 +166,124 @@ p {
   top: 14.71%;
   bottom: 77.94%;
 }
-@keyframes example {
-  0% {
-    background-color: red;
-    left: 0px;
-    top: 0px;
-  }
+.text-about {
+  position: absolute;
+  width: 166px;
+  height: 50px;
+  left: calc(50% - 166px / 2 - 472px);
+  top: 1364px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+
+  color: #ee4d47;
 }
+#aboutus {
+}
+.my-4 {
+  position: absolute;
+  width: 470px;
+  height: 156px;
+  left: calc(50% - 470px / 2 - 320px);
+  top: 1454px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 40px;
+  /* or 222% */
+
+  /* text */
+
+  color: #402b2b;
+}
+.picture {
+  /* Illustration */
+
+  position: absolute;
+  width: 575.12px;
+  height: 480px;
+  left: 840.69px;
+  top: 1290px;
+}
+#illustration {
+  /* Illustration */
+
+  position: absolute;
+  width: 575.12px;
+  height: 480px;
+  left: 840.69px;
+  top: 1290px;
+}
+body {
+  background-repeat: no-repeat;
+}
+.picture-a {
+  position: absolute;
+  width: 1232.61px;
+  height: 679.88px;
+  left: 127.39px;
+  top: 2004.81px;
+}
+.illustrations {
+  position: absolute;
+  width: 1232.61px;
+  height: 679.88px;
+  left: 127.39px;
+  top: 2004.81px;
+}
+
+.howtoapply {
+  position: absolute;
+  width: 1232.61px;
+  height: 679.88px;
+  left: 127.39px;
+  top: 2004.81px;
+}
+.text-apply {
+  /* How to apply */
+
+  position: absolute;
+  width: 265px;
+  height: 50px;
+  left: calc(50% - 265px / 2 + 237.5px);
+  top: 2101px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ee4d47;
+}
+.my-5 {
+  position: absolute;
+  width: 455px;
+  height: 287px;
+  left: calc(50% - 455px / 2 + 332.5px);
+  top: 2191px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 40px;
+  /* or 222% */
+
+  /* text */
